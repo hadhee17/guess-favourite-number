@@ -30,7 +30,10 @@ checkButton.addEventListener("click", function () {
     scores -= 1;
     score.textContent = scores;
     message.textContent = "Wrong Answer...";
-   
+    if (score.textContent == 0) {
+      message.textContent = "Game Over!";
+      checkButton.disabled = true;
+    }
   }
 });
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
 body {
   font-family: "Pixelify Sans";
   background-color: brown;
@@ -30,6 +32,7 @@ p {
 }
 
 .btnreset {
+  font-family: inherit;
   height: 30px; /* Adjust to your desired height */
   width: 150px; /* Keep the same width */
   display: flex;
@@ -75,6 +78,7 @@ p {
 }
 
 .btncheck {
+  font-family: inherit;
   position: absolute;
   bottom: 5%;
   left: 12%;
